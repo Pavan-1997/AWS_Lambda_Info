@@ -2,13 +2,15 @@
 
 ## Introduction to Serverless Computing
 
+DevOps team is not responsible for designing in the Lambda in Project but will be taken care by Dev, Architecture or Design team to go with a server or serverless approach
+
 Today, we're going to embark on an exciting journey into the world of serverless computing and explore AWS Lambda, a powerful service offered by Amazon Web Services.
 
 So, what exactly is "serverless computing"? Don't worry; it's not about eliminating servers altogether. Instead, serverless computing is a cloud computing execution model where you, as a developer, don't have to manage servers directly. You focus solely on writing and deploying your code, while the cloud provider takes care of all the underlying infrastructure.
 
 ## Understanding AWS Lambda
 
-In this serverless landscape, AWS Lambda shines as a leading service. AWS Lambda is a compute service that lets you run your code in response to events without the need to provision or manage servers. It automatically scales your applications based on incoming requests, so you don't have to worry about capacity planning or dealing with server maintenance.
+In this serverless landscape, AWS Lambda shines as a leading service. AWS Lambda is a computing service that lets you run your code in response to events without the need to provision or manage servers. It automatically scales your applications based on incoming requests, so you don't have to worry about capacity planning or dealing with server maintenance.
 
 ## How Lambda Functions Fit into the Serverless World
 
