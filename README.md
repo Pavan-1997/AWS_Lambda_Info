@@ -12,6 +12,13 @@ So, what exactly is "serverless computing"? Don't worry; it's not about eliminat
 
 In this serverless landscape, AWS Lambda shines as a leading service. AWS Lambda is a computing service that lets you run your code in response to events without the need to provision or manage servers. It automatically scales your applications based on incoming requests, so you don't have to worry about capacity planning or dealing with server maintenance.
 
+lambda_handler() is like a main function which is called first
+
+You can even add environment variables under the Configuration tab
+
+By default, AWS creates an IAM role when a Lambda function is created 
+
+
 ## How Lambda Functions Fit into the Serverless World
 
 At the heart of AWS Lambda are "Lambda functions." These are individual units of code that perform specific tasks. Think of them as small, single-purpose applications that run independently.
