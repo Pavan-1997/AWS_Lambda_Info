@@ -23,8 +23,6 @@ By default, AWS creates an IAM role when a Lambda function is created
 
 At the heart of AWS Lambda are "Lambda functions." These are individual units of code that perform specific tasks. Think of them as small, single-purpose applications that run independently.
 
-Here's how Lambda functions fit into the serverless world:
-
 1. **Event-Driven Execution**: Lambda functions are triggered by events. An event could be anything, like a new file being uploaded to Amazon S3, a request hitting an API, or a specific time on the clock. When an event occurs, Lambda executes the corresponding function.
 
 2. **No Server Management**: As a developer, you don't need to worry about managing servers. AWS handles everything behind the scenes. You just upload your code, configure the trigger, and Lambda takes care of the rest.
@@ -36,8 +34,6 @@ Here's how Lambda functions fit into the serverless world:
 5. **Supported Languages**: Lambda supports multiple programming languages like Node.js, Python, Java, Go, and more. You can choose the language you are comfortable with or that best fits your application's needs.
 
 ## Real-World Use Cases
-
-Now, let's explore some real-world use cases to better understand how AWS Lambda can be applied:
 
 1. **Automated Image Processing**: Imagine you have a photo-sharing app, and users upload images every day. You can use Lambda to automatically resize or compress these images as soon as they are uploaded to S3.
 
